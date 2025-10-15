@@ -1,7 +1,7 @@
 # HIP-SPH
 Two-dimensional Smooted Particle Hydrodynamics solver written using AMD HIP with hashgrid-based neighborhood search.
 
-![Demo](Utility/SPH_Demo.gif)
+![Demo](Utility/SPH_Demo2.gif)
 
 # Setup
 1. Install dependencies: See file `InstallHints.md` for guides.
