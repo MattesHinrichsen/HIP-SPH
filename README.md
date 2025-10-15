@@ -11,7 +11,7 @@ Two-dimensional Smooted Particle Hydrodynamics solver written using AMD HIP with
    - rlIMGUI
 2. In main directory run 
    ```
-   cd Build
+   cd build
    cmake ..
    make run -j4
    ```
