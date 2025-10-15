@@ -83,7 +83,8 @@ void Visualizer::drawing_call() {
 
         // Setup
         ClearBackground(RAYWHITE);
-        DrawFPS(2, 2);
+
+        // DrawFPS(2, 2);
 
         rlImGuiBegin();
         ImGui::Begin("Developer Settings");
