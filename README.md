@@ -1,5 +1,5 @@
 # HIP-SPH
-Two-dimensional Smooted Particle Hydrodynamics solver written using AMD HIP with hashgrid-based neighborhood search.
+Two-dimensional Smoothed Particle Hydrodynamics solver written using AMD HIP with Hashgrid-based neighborhood search.
 
 ![Demo](Utility/SPH_Demo2.gif)
 
@@ -9,7 +9,8 @@ Two-dimensional Smooted Particle Hydrodynamics solver written using AMD HIP with
    - Raylib
    - IMGUI
    - rlIMGUI
-2. In main directory run 
+2. Set the correct GPU deviceID in `Utility/hipHelper.cpp`. The command `rocminfo` might give you more info on the available devices. The used device is printed when the simulation is started.
+3. In main directory run 
    ```
    cd build
    cmake ..

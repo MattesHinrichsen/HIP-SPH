@@ -28,9 +28,6 @@
 
 #define THREADS_PER_BLOCK 32
 #define HIP_ASSERT(x) (assert((x)==hipSuccess))
-#ifndef deviceID
-    #define deviceID 0
-#endif
 
 
 /*----------------------------------------------------

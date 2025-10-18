@@ -1,7 +1,9 @@
 #pragma once
 #include <thrust/device_vector.h>
 
-
+#ifndef deviceID
+    #define deviceID 0
+#endif
 
 template<typename T>
 static T* GetPointer(thrust::device_vector<T> &vector)

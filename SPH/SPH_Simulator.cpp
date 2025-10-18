@@ -27,9 +27,7 @@ using namespace std::chrono_literals;
 
 #define THREADS_PER_BLOCK 32
 #define HIP_ASSERT(x) (assert((x)==hipSuccess))
-#ifndef deviceID
-    #define deviceID 0
-#endif
+
 
 
 // CPU functions
@@ -84,7 +82,7 @@ void SPH_Simulator::Simulation_Step() {
     Calculate_Pressure_and_Viscosity_Force();
 
     Calculate_Mouse_Pointer_Forces();
-    Calculate_Gravity_Forces();
+    // Calculate_Gravity_Forces();
 
     Time_Integration();
 
