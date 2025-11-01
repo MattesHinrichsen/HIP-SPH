@@ -16,7 +16,7 @@ class SPH_Simulator {
     int n;
     GPU_T mass;
     const GPU_T dt = 0.01;
-    const GPU_T collisionDamping = 0.9;
+    const GPU_T collisionDamping = 1.0;
     const GPU_T dynamic_viscosity = 2;
 
     GPU_T smoothing_radius;

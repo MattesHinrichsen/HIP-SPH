@@ -82,7 +82,7 @@ void SPH_Simulator::Simulation_Step() {
     Calculate_Pressure_and_Viscosity_Force();
 
     Calculate_Mouse_Pointer_Forces();
-    // Calculate_Gravity_Forces();
+    Calculate_Gravity_Forces();
 
     Time_Integration();
 
